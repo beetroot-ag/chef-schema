@@ -1,0 +1,145 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "",
+  "type": "object",
+  "properties": {
+    "Title": {
+      "type": "string"
+    },
+    "UrlSegment": {
+      "type": "null"
+    },
+    "Id": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "BaseTemplate": {
+      "type": "number"
+    },
+    "BaseType": {
+      "type": "number"
+    },
+    "AllowContentTypes": {
+      "type": "boolean"
+    },
+    "ContentTypes": {
+      "type": "null"
+    },
+    "DisableCommenting": {
+      "type": "boolean"
+    },
+    "DisableGridEditing": {
+      "type": "boolean"
+    },
+    "ContentTypesEnabled": {
+      "type": "boolean"
+    },
+    "CrawlNonDefaultViews": {
+      "type": "boolean"
+    },
+    "DefaultContentApprovalWorkflowId": {
+      "type": "string"
+    },
+    "DefaultItemOpenUseListSetting": {
+      "type": "boolean"
+    },
+    "Direction": {
+      "type": "string"
+    },
+    "DocumentTemplateUrl": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "DraftVersionVisibility": {
+      "type": "number"
+    },
+    "EnableAttachments": {
+      "type": "boolean"
+    },
+    "EnableFolderCreation": {
+      "type": "boolean"
+    },
+    "EnableMinorVersions": {
+      "type": "boolean"
+    },
+    "EnableModeration": {
+      "type": "boolean"
+    },
+    "EnableRequestSignOff": {
+      "type": "boolean"
+    },
+    "EnableVersioning": {
+      "type": "boolean"
+    },
+    "ExemptFromBlockDownloadOfNonViewableFiles": {
+      "type": "boolean"
+    },
+    "FileSavePostProcessingEnabled": {
+      "type": "boolean"
+    },
+    "ForceCheckout": {
+      "type": "boolean"
+    },
+    "HasExternalDataSource": {
+      "type": "boolean"
+    },
+    "Hidden": {
+      "type": "boolean"
+    },
+    "ImageUrl": {
+      "type": "string"
+    },
+    "DefaultSensitivityLabelForLibrary": {
+      "type": "string"
+    },
+    "SensitivityLabelToEncryptOnDownloadForLibrary": {
+      "type": "null"
+    },
+    "IrmEnabled": {
+      "type": "boolean"
+    },
+    "IrmExpire": {
+      "type": "boolean"
+    },
+    "IrmReject": {
+      "type": "boolean"
+    },
+    "IsApplicationList": {
+      "type": "boolean"
+    },
+    "IsCatalog": {
+      "type": "boolean"
+    },
+    "IsPrivate": {
+      "type": "boolean"
+    },
+    "ListExperienceOptions": {
+      "type": "number"
+    },
+    "MajorVersionLimit": {
+      "type": "number"
+    },
+    "MajorWithMinorVersionsLimit": {
+      "type": "number"
+    },
+    "MultipleDataList": {
+      "type": "boolean"
+    },
+    "NoCrawl": {
+      "type": "boolean"
+    },
+    "ParserDisabled": {
+      "type": "boolean"
+    },
+    "ServerTemplateCanCreateFolders": {
+      "type": "boolean"
+    },
+    "TemplateFeatureId": {
+      "type": "string"
+    }
+  }
+}

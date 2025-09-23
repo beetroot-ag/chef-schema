@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "",
+  "type": "object",
+  "allOf": [
+    {
+      "$ref": "base.schema.json"
+    }
+  ],
+  "properties": {
+    "DisplayFormat": {
+      "type": "number"
+    },
+    "DateFormat": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "DateTimeCalendarType": {
+      "type": "number"
+    },
+    "FriendlyDisplayFormat": {
+      "type": "number"
+    },
+    "TimeFormat": {
+      "type": "null"
+    }
+  }
+}

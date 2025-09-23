@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "",
+  "type": "object",
+  "allOf": [
+    {
+      "$ref": "base.schema.json"
+    }
+  ],
+  "properties": {
+    "AllowHyperlink": {
+      "type": "boolean"
+    },
+    "AppendOnly": {
+      "type": "boolean"
+    },
+    "IsLongHyperlink": {
+      "type": "boolean"
+    },
+    "NumberOfLines": {
+      "type": "number"
+    },
+    "RestrictedMode": {
+      "type": "boolean"
+    },
+    "RichText": {
+      "type": "boolean"
+    },
+    "WikiLinking": {
+      "type": "boolean"
+    },
+    "UnlimitedLengthInDocumentLibrary": {
+      "type": "boolean"
+    }
+  }
+}

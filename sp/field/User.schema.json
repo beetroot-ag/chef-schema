@@ -1,0 +1,60 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "",
+  "type": "object",
+  "allOf": [
+    {
+      "$ref": "base.schema.json"
+    }
+  ],
+  "properties": {
+    "AllowMultipleValues": {
+      "type": "boolean"
+    },
+    "AllowDisplay": {
+      "type": "boolean"
+    },
+    "Presence": {
+      "type": "boolean"
+    },
+    "SelectionGroup": {
+      "type": "number"
+    },
+    "SelectionMode": {
+      "type": "number"
+    },
+    "UserDisplayOptions": {
+      "type": "null"
+    },
+    "UnlimitedLengthInDocumentLibrary": {
+      "type": "boolean"
+    },
+    "PrimaryFieldId": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "LookupField": {
+      "type": "string"
+    },
+    "LookupList": {
+      "type": "string"
+    },
+    "LookupWebId": {
+      "type": "string"
+    },
+    "DependentLookupInternalNames": {
+      "type": "array"
+    },
+    "RelationshipDeleteBehavior": {
+      "type": "number"
+    },
+    "IsRelationship": {
+      "type": "boolean"
+    },
+    "IsDependentLookup": {
+      "type": "boolean"
+    }
+  }
+}

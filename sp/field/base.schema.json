@@ -1,0 +1,130 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "",
+  "type": "object",
+  "properties": {
+    "Title": {
+      "type": "string"
+    },
+    "StaticName": {
+      "type": "string"
+    },
+    "InternalName": {
+      "type": "string"
+    },
+    "EntityPropertyName": {
+      "type": "string"
+    },
+    "Id": {
+      "type": "string"
+    },
+    "Group": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "TypeDisplayName": {
+      "type": "string"
+    },
+    "Required": {
+      "type": "boolean"
+    },
+    "EnforceUniqueValues": {
+      "type": "boolean"
+    },
+    "ShowInFiltersPane": {
+      "type": "number"
+    },
+    "PinnedToFiltersPane": {
+      "type": "boolean"
+    },
+    "ReadOnlyField": {
+      "type": "boolean"
+    },
+    "Hidden": {
+      "type": "boolean"
+    },
+    "Indexed": {
+      "type": "boolean"
+    },
+    "DefaultValue": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "DefaultFormula": {
+      "type": "null"
+    },
+    "CustomFormatter": {
+      "type": "null"
+    },
+    "ClientValidationFormula": {
+      "type": "null"
+    },
+    "ClientValidationMessage": {
+      "type": "null"
+    },
+    "ValidationFormula": {
+      "type": "null"
+    },
+    "ValidationMessage": {
+      "type": "null"
+    },
+    "ClientSideComponentId": {
+      "type": "string"
+    },
+    "ClientSideComponentProperties": {
+      "type": "null"
+    },
+    "Scope": {
+      "type": "string"
+    },
+    "TypeAsString": {
+      "type": "string"
+    },
+    "TypeShortDescription": {
+      "type": "string"
+    },
+    "FieldTypeKind": {
+      "type": "number"
+    },
+    "Filterable": {
+      "type": "boolean"
+    },
+    "Sortable": {
+      "type": "boolean"
+    },
+    "Sealed": {
+      "type": "boolean"
+    },
+    "AutoIndexed": {
+      "type": "boolean"
+    },
+    "IndexStatus": {
+      "type": "number"
+    },
+    "CanBeDeleted": {
+      "type": "boolean"
+    },
+    "FromBaseType": {
+      "type": "boolean"
+    },
+    "IsModern": {
+      "type": "boolean"
+    },
+    "AutofillInfo": {
+      "type": "null"
+    },
+    "Direction": {
+      "type": "string"
+    },
+    "JSLink": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "",
+  "type": "object",
+  "allOf": [
+    {
+      "$ref": "base.schema.json"
+    }
+  ],
+  "properties": {
+    "CommaSeparator": {
+      "type": "boolean"
+    },
+    "CustomUnitName": {
+      "type": ["string", "null"]
+    },
+    "CustomUnitOnRight": {
+      "type": "boolean"
+    },
+    "DisplayFormat": {
+      "type": "number"
+    },
+    "MaximumValue": {
+      "type": "number"
+    },
+    "MinimumValue": {
+      "type": "number"
+    },
+    "ShowAsPercentage": {
+      "type": "boolean"
+    },
+    "Unit": {
+      "type": ["string", "null"]
+    }
+  }
+}

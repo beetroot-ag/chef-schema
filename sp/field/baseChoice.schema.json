@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "",
+  "type": "object",
+  "allOf": [
+    {
+      "$ref": "base.schema.json"
+    }
+  ],
+  "properties": {
+    "Choices": {
+      "type": "array"
+    },
+    "FillInChoice": {
+      "type": "boolean"
+    },
+    "Mappings": {
+      "type": "null"
+    },
+    "UnlimitedLengthInDocumentLibrary": {
+      "type": "boolean"
+    }
+  }
+}

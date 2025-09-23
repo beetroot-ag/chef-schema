@@ -1,0 +1,87 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "",
+  "type": "object",
+  "allOf": [
+    {
+      "$ref": "base.schema.json"
+    }
+  ],
+  "properties": {
+    "AllowMultipleValues": {
+      "type": "boolean"
+    },
+    "UnlimitedLengthInDocumentLibrary": {
+      "type": "boolean"
+    },
+    "AnchorId": {
+      "type": "string"
+    },
+    "SspId": {
+      "type": "string"
+    },
+    "TermSetId": {
+      "type": "string"
+    },
+    "TextField": {
+      "type": "string"
+    },
+    "PrimaryFieldId": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "LookupField": {
+      "type": "string"
+    },
+    "LookupList": {
+      "type": "string"
+    },
+    "LookupWebId": {
+      "type": "string"
+    },
+    "CreateValuesInEditForm": {
+      "type": "boolean"
+    },
+    "DependentLookupInternalNames": {
+      "type": "array"
+    },
+    "RelationshipDeleteBehavior": {
+      "type": "number"
+    },
+    "TargetTemplate": {
+      "type": "null"
+    },
+    "Open": {
+      "type": "boolean"
+    },
+    "IsAnchorValid": {
+      "type": "boolean"
+    },
+    "IsDocTagsEnabled": {
+      "type": "boolean"
+    },
+    "IsEnhancedImageTaggingEnabled": {
+      "type": "boolean"
+    },
+    "IsKeyword": {
+      "type": "boolean"
+    },
+    "IsPathRendered": {
+      "type": "boolean"
+    },
+    "IsTermSetValid": {
+      "type": "boolean"
+    },
+    "IsRelationship": {
+      "type": "boolean"
+    },
+    "IsDependentLookup": {
+      "type": "boolean"
+    },
+    "UserCreated": {
+      "type": "boolean"
+    }
+  }
+}

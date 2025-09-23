@@ -1,0 +1,103 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "",
+  "type": "object",
+  "properties": {
+    "Name": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "Group": {
+      "type": "string"
+    },
+    "Id": {
+      "type": "string"
+    },
+    "Fields": {
+      "type": "object"
+    },
+    "ClientFormCustomFormatter": {
+      "type": "string"
+    },
+    "DocumentTemplate": {
+      "type": "string"
+    },
+    "DocumentTemplateUrl": {
+      "type": "string"
+    },
+    "DisplayFormClientSideComponentId": {
+      "type": "string"
+    },
+    "DisplayFormClientSideComponentProperties": {
+      "type": "string"
+    },
+    "DisplayFormTarget": {
+      "type": "number"
+    },
+    "DisplayFormTemplateName": {
+      "type": "string"
+    },
+    "DisplayFormUrl": {
+      "type": "string"
+    },
+    "MobileDisplayFormUrl": {
+      "type": "string"
+    },
+    "EditFormClientSideComponentId": {
+      "type": "string"
+    },
+    "EditFormClientSideComponentProperties": {
+      "type": "string"
+    },
+    "EditFormTarget": {
+      "type": "number"
+    },
+    "EditFormTemplateName": {
+      "type": "string"
+    },
+    "EditFormUrl": {
+      "type": "string"
+    },
+    "MobileEditFormUrl": {
+      "type": "string"
+    },
+    "NewFormClientSideComponentId": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "NewFormClientSideComponentProperties": {
+      "type": "string"
+    },
+    "NewFormTarget": {
+      "type": "number"
+    },
+    "NewFormTemplateName": {
+      "type": "string"
+    },
+    "NewFormUrl": {
+      "type": "string"
+    },
+    "MobileNewFormUrl": {
+      "type": "string"
+    },
+    "Hidden": {
+      "type": "boolean"
+    },
+    "ReadOnly": {
+      "type": "boolean"
+    },
+    "Sealed": {
+      "type": "boolean"
+    },
+    "JSLink": {
+      "type": "string"
+    },
+    "Scope": {
+      "type": "string"
+    }
+  }
+}

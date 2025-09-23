@@ -1,0 +1,33 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "",
+  "type": "object",
+  "allOf": [
+    {
+      "$ref": "base.schema.json"
+    }
+  ],
+  "properties": {
+    "DisplayFormat": {
+      "type": "number"
+    },
+    "ShowAsPercentage": {
+      "type": "boolean"
+    },
+    "CurrencyLocaleId": {
+      "type": "number"
+    },
+    "DateFormat": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "Formula": {
+      "type": "string"
+    },
+    "OutputType": {
+      "type": "number"
+    }
+  }
+}
