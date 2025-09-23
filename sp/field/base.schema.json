@@ -4,7 +4,8 @@
   "type": "object",
   "properties": {
     "Title": {
-      "type": "string"
+      "type": "string",
+      "description": "DisplayName of the Field"
     },
     "StaticName": {
       "type": "string"
