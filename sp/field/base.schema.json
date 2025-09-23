@@ -80,7 +80,8 @@
       "type": "null"
     },
     "Scope": {
-      "type": "string"
+      "type": "string",
+      "default": "Test"
     },
     "TypeAsString": {
       "type": "string"
