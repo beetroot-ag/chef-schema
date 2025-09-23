@@ -28,7 +28,8 @@
       "type": "string"
     },
     "Required": {
-      "type": "boolean"
+      "type": "boolean",
+      "default": false
     },
     "EnforceUniqueValues": {
       "type": "boolean"
