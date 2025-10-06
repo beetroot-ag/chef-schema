@@ -45,7 +45,7 @@
       "type": "string"
     },
     "DependentLookupInternalNames": {
-      "type": "array"
+      "type": [ "array", "null" ]
     },
     "RelationshipDeleteBehavior": {
       "type": "number"

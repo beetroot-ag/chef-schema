@@ -19,7 +19,7 @@
       "type": "object"
     },
     "ClientFormCustomFormatter": {
-      "type": "string"
+      "type":  [ "string", "null" ]
     },
     "DocumentTemplate": {
       "type": "string"

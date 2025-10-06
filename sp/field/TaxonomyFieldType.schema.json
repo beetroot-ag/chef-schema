@@ -45,13 +45,13 @@
       "type": "boolean"
     },
     "DependentLookupInternalNames": {
-      "type": "array"
+      "type": [ "array", "null" ]
     },
     "RelationshipDeleteBehavior": {
       "type": "number"
     },
     "TargetTemplate": {
-      "type": "null"
+      "type": "string"
     },
     "Open": {
       "type": "boolean"

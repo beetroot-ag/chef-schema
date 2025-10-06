@@ -12,19 +12,19 @@
       "type": "number"
     },
     "GridNAOptionText": {
-      "type": "null"
+      "type": "string"
     },
     "GridStartNumber": {
       "type": "number"
     },
     "GridTextRangeAverage": {
-      "type": "null"
+      "type": "string"
     },
     "GridTextRangeHigh": {
-      "type": "null"
+      "type": "string"
     },
     "GridTextRangeLow": {
-      "type": "null"
+      "type": "string"
     },
     "RangeCount": {
       "type": "number"

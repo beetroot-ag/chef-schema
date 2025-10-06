@@ -24,7 +24,7 @@
       "type": "number"
     },
     "TimeFormat": {
-      "type": "null"
+      "type": "number"
     }
   }
 }

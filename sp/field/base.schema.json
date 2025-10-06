@@ -57,28 +57,28 @@
       ]
     },
     "DefaultFormula": {
-      "type": "null"
+      "type": "string"
     },
     "CustomFormatter": {
-      "type": "null"
+      "type": "string"
     },
     "ClientValidationFormula": {
-      "type": "null"
+      "type": "string"
     },
     "ClientValidationMessage": {
-      "type": "null"
+      "type": "string"
     },
     "ValidationFormula": {
-      "type": "null"
+      "type": "string"
     },
     "ValidationMessage": {
-      "type": "null"
+      "type": "string"
     },
     "ClientSideComponentId": {
       "type": "string"
     },
     "ClientSideComponentProperties": {
-      "type": "null"
+      "type": "string"
     },
     "Scope": {
       "type": "string",
@@ -118,7 +118,7 @@
       "type": "boolean"
     },
     "AutofillInfo": {
-      "type": "null"
+      "type": "string"
     },
     "Direction": {
       "type": "string"

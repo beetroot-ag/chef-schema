@@ -7,7 +7,7 @@
       "type": "string"
     },
     "UrlSegment": {
-      "type": "null"
+      "type": "string"
     },
     "Id": {
       "type": "string"
@@ -25,7 +25,7 @@
       "type": "boolean"
     },
     "ContentTypes": {
-      "type": "null"
+      "type": "object"
     },
     "DisableCommenting": {
       "type": "boolean"
