@@ -13,7 +13,10 @@
       "type": "string"
     },
     "Id": {
-      "type": "string"
+      "type": [
+        "string",
+        "integer" /* this is just a hack because yaml-language-server interprets the contenttypeids as number */
+      ]
     },
     "Fields": {
       "type": "object"
