@@ -15,7 +15,7 @@
     "Id": {
       "type": [
         "string",
-        "integer" /* this is just a hack because yaml-language-server interprets the contenttypeids as number */
+        "integer"
       ]
     },
     "Fields": {

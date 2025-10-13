@@ -1,0 +1,211 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "",
+  "type": "object",
+  "properties": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "WebTemplate": {
+      "type": "string"
+    },
+    "Id": {
+      "type": "string"
+    },
+    "Url": {
+      "type": "string"
+    },
+    "ServerRelativeUrl": {
+      "type": "string"
+    },
+    "WelcomePage": {
+      "type": "string"
+    },
+    "Language": {
+      "type": "number"
+    },
+    "UserCustomActions": {
+      "type": "array"
+    },
+    "SearchScope": {
+      "type": "number"
+    },
+    "AllowRssFeeds": {
+      "type": "boolean"
+    },
+    "MegaMenuEnabled": {
+      "type": "boolean"
+    },
+    "NavAudienceTargetingEnabled": {
+      "type": "boolean"
+    },
+    "NoCrawl": {
+      "type": "boolean"
+    },
+    "ObjectCacheEnabled": {
+      "type": "boolean"
+    },
+    "OverwriteTranslationsOnChange": {
+      "type": "boolean"
+    },
+    "QuickLaunchEnabled": {
+      "type": "boolean"
+    },
+    "RecycleBinEnabled": {
+      "type": "boolean"
+    },
+    "DocumentLibraryCalloutOfficeWebAppPreviewersDisabled": {
+      "type": "boolean"
+    },
+    "EnableMinimalDownload": {
+      "type": "boolean"
+    },
+    "SyndicationEnabled": {
+      "type": "boolean"
+    },
+    "TenantAdminMembersCanShare": {
+      "type": "number"
+    },
+    "TreeViewEnabled": {
+      "type": "boolean"
+    },
+    "SiteLogoUrl": {
+      "type": "null"
+    },
+    "LogoAlignment": {
+      "type": "number"
+    },
+    "HideTitleInHeader": {
+      "type": "boolean"
+    },
+    "HorizontalQuickLaunch": {
+      "type": "boolean"
+    },
+    "FontOptionForSiteFooterNav": {
+      "type": "null"
+    },
+    "FontOptionForSiteFooterTitle": {
+      "type": "null"
+    },
+    "FontOptionForSiteNav": {
+      "type": "null"
+    },
+    "FontOptionForSiteTitle": {
+      "type": "null"
+    },
+    "FooterAlignment": {
+      "type": "number"
+    },
+    "FooterBlur": {
+      "type": "number"
+    },
+    "FooterColorIndexInDarkMode": {
+      "type": "number"
+    },
+    "FooterColorIndexInLightMode": {
+      "type": "number"
+    },
+    "FooterEmphasis": {
+      "type": "number"
+    },
+    "FooterEnabled": {
+      "type": "boolean"
+    },
+    "FooterLayout": {
+      "type": "number"
+    },
+    "FooterOverlayColor": {
+      "type": "number"
+    },
+    "FooterOverlayGradientDirection": {
+      "type": "number"
+    },
+    "FooterOverlayOpacity": {
+      "type": "number"
+    },
+    "HeaderColorIndexInDarkMode": {
+      "type": "number"
+    },
+    "HeaderColorIndexInLightMode": {
+      "type": "number"
+    },
+    "HeaderEmphasis": {
+      "type": "number"
+    },
+    "HeaderLayout": {
+      "type": "number"
+    },
+    "HeaderOverlayColor": {
+      "type": "number"
+    },
+    "HeaderOverlayGradientDirection": {
+      "type": "number"
+    },
+    "HeaderOverlayOpacity": {
+      "type": "number"
+    },
+    "AlternateCssUrl": {
+      "type": "string"
+    },
+    "ClassicWelcomePage": {
+      "type": "null"
+    },
+    "Configuration": {
+      "type": "number"
+    },
+    "Created": {
+      "type": "string"
+    },
+    "CurrentChangeToken": {
+      "type": "string"
+    },
+    "CustomMasterUrl": {
+      "type": "string"
+    },
+    "MasterUrl": {
+      "type": "string"
+    },
+    "AppInstanceId": {
+      "type": "string"
+    },
+    "DesignPackageId": {
+      "type": "string"
+    },
+    "IsEduClass": {
+      "type": "boolean"
+    },
+    "IsEduClassProvisionChecked": {
+      "type": "boolean"
+    },
+    "IsEduClassProvisionPending": {
+      "type": "boolean"
+    },
+    "IsHomepageModernized": {
+      "type": "boolean"
+    },
+    "IsMultilingual": {
+      "type": "boolean"
+    },
+    "IsRevertHomepageLinkHidden": {
+      "type": "boolean"
+    },
+    "LastItemModifiedDate": {
+      "type": "string"
+    },
+    "LastItemUserModifiedDate": {
+      "type": "string"
+    },
+    "UIVersion": {
+      "type": "number"
+    },
+    "UIVersionConfigurationEnabled": {
+      "type": "boolean"
+    },
+    "$Schema": {
+      "type": "string"
+    }
+  }
+}
