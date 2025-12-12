@@ -6,10 +6,5 @@
     {
       "$ref": "base.schema.json"
     }
-  ],
-  "properties": {
-    "Title": {
-      "default": "Title Comm"
-    }
-  }
+  ]
 }

@@ -4,8 +4,7 @@
   "type": "object",
   "properties": {
     "Title": {
-      "type": "string",
-      "default": "Title Base"
+      "type": "string"
     },
     "Description": {
       "type": "string"
@@ -27,9 +26,6 @@
     },
     "Language": {
       "type": "number"
-    },
-    "UserCustomActions": {
-      "type": "array"
     },
     "SearchScope": {
       "type": "number"

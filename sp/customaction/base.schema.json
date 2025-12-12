@@ -1,0 +1,91 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "",
+  "type": "object",
+  "properties": {
+    "ScriptBlock": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "Id": {
+      "type": "string"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Sequence": {
+      "type": "number"
+    },
+    "VersionOfUserCustomAction": {
+      "type": "string"
+    },
+    "ScriptSrc": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "RegistrationType": {
+      "type": "number"
+    },
+    "Scope": {
+      "type": "number"
+    },
+    "HostProperties": {
+      "type": "string"
+    },
+    "Group": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "ImageUrl": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "Name": {
+      "type": "string"
+    },
+    "ClientSideComponentProperties": {
+      "type": "string"
+    },
+    "Url": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "CommandUIExtension": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "Location": {
+      "type": "string"
+    },
+    "Description": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "Rights": {
+      "type": "object"
+    },
+    "RegistrationId": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "ClientSideComponentId": {
+      "type": "string"
+    }
+  }
+}
